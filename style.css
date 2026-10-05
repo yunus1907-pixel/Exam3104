@@ -1,0 +1,237 @@
+/* Общие настройки страницы */
+body {
+    margin: 0;
+    padding: 0 6px;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+/* Главный заголовок */
+header h1 {
+    margin: 20px 0 12px 0;
+    padding: 3px;
+    text-align: center;
+
+    background-color: #dfe8f7;
+    border: 2px solid #d33;
+    border-radius: 20px;
+
+    font-size: 24px;
+    color: #333;
+}
+
+
+/* Обычный текст */
+p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+/* Заголовки */
+h2 {
+    color: #527d4c;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    color: #527d4c;
+    font-size: 17px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+
+/* Список животных */
+ul {
+    margin-top: 5px;
+    padding-left: 30px;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+/* Желтые полоски-заголовки */
+.section-title {
+    width: 100%;
+    margin: 12px 0;
+
+    background-color: #ffff00;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 2px 0;
+}
+
+
+/* Блок с картинками */
+.animal-images {
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+
+    gap: 0;
+}
+
+
+/* Картинки */
+.animal-images img {
+    width: 50%;
+    height: 295px;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Видео */
+.video-container {
+    width: 97%;
+    height: 380px;
+
+    margin: 0 auto;
+
+    background-color: black;
+    border-radius: 6px;
+
+    overflow: hidden;
+}
+
+
+/* YouTube */
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+}
+
+
+/* Поле для комментария */
+textarea {
+    width: 90%;
+    height: 42px;
+
+    padding: 8px;
+
+    border: 1px solid #aaa;
+
+    resize: vertical;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+/* Radio-кнопки */
+form label {
+    font-size: 14px;
+}
+
+
+/* Кнопка */
+button {
+    width: 293px;
+    height: 37px;
+
+    border: none;
+
+    background-color: #6198ca;
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+
+/* Эффект при наведении */
+button:hover {
+    background-color: #4d82b3;
+}
+
+
+/* Таблица */
+table {
+    width: 90%;
+
+    margin-top: 10px;
+
+    border-collapse: collapse;
+
+    text-align: center;
+
+    font-size: 14px;
+}
+
+
+/* Заголовки таблицы */
+th {
+    background-color: #1111d9;
+    color: white;
+
+    padding: 7px;
+
+    border: 1px solid #222;
+}
+
+
+/* Ячейки */
+td {
+    padding: 7px;
+
+    border: 1px solid #222;
+
+    background-color: #000;
+    color: white;
+}
+
+
+/* Первый столбец таблицы */
+td:first-child {
+    background-color: #f20d0d;
+    width: 15%;
+}
+
+
+/* Адаптация под телефон */
+@media (max-width: 700px) {
+
+    .animal-images {
+        width: 100%;
+    }
+
+    .animal-images img {
+        height: 200px;
+    }
+
+    .video-container {
+        width: 100%;
+        height: 280px;
+    }
+
+    textarea {
+        width: 95%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+}

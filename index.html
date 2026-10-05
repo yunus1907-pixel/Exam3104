@@ -1,0 +1,157 @@
+
+    <!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Virtual Zoopark</title>
+
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Главный заголовок -->
+    <header>
+        <h1>Xush kelibsiz, Virtual Zooparkga!</h1>
+    </header>
+
+    <!-- Введение -->
+    <p>
+        Bu yerda siz turli <strong>hayvonlar</strong> haqida qiziqarli
+        ma'lumotlar topishingiz mumkin.
+    </p>
+
+    <!-- Список животных -->
+    <h2>Bizning hayvonlar</h2>
+
+    <ul>
+        <li>
+            <strong>Arslonlar</strong> - o'rmon qirollari
+        </li>
+
+        <li>
+            <strong>Fillar</strong> - yer yuzidagi eng katta quruqlik hayvonlari
+        </li>
+    </ul>
+
+
+    <!-- Заголовок фотографий -->
+    <div class="section-title">
+        Hayvonlar haqida qiziqarli faktlar
+    </div>
+
+    <!-- Картинки -->
+    <div class="animal-images">
+
+        <img
+            src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=900&q=80"
+            alt="Arslonlar">
+
+        <img
+            src="https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?auto=format&fit=crop&w=900&q=80"
+            alt="Arslon">
+            
+    </div>
+
+
+    <!-- Видео -->
+    <div class="section-title">
+        Hayvonlarni ko'rish
+    </div>
+
+    <div class="video-container">
+
+        <iframe
+            src="https://www.youtube.com/embed/3x7t9Wk8l4M"
+            title="Lion video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+
+    <!-- Форма -->
+    <h3>O'z fikringizni yozib qoldiring</h3>
+
+    <textarea
+        id="comment"
+        name="comment"
+        rows="5"
+        placeholder="Fikringizni shu yerga yozing...">
+    </textarea>
+
+
+    <!-- Выбор любимого животного -->
+    <h3>Sevimli hayvoningiz qaysi</h3>
+
+    <form>
+
+        <label>
+            <input
+                type="radio"
+                name="animal"
+                value="arslon">
+            Arslon
+        </label>
+
+        <br>
+
+        <label>
+            <input
+                type="radio"
+                name="animal"
+                value="fil">
+            Fil
+        </label>
+
+        <br><br>
+
+        <button type="submit">
+            Jo'natish
+        </button>
+
+    </form>
+
+
+    <!-- Таблица -->
+    <div class="section-title">
+        Hayvonlar haqida to'liq ma'lumotlar jadvali
+    </div>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Hayvon</th>
+                <th>Qiziqarli fakt</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Arslon</td>
+                <td>
+                    Arslonlar kunning 20 soatini uyqu bilan o'tkazishadi
+                </td>
+            </tr>
+
+            <tr>
+                <td>Fil</td>
+                <td>
+                    Fillar suvni o'zlarini burni bilan ichishadi
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+</html>
+</body>
+</html>
